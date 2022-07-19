@@ -1,1 +1,5 @@
+一个可以动态增长大小的数组，声明用vector<template> name;
 
+动态增长用的push_back()和pop_back()
+
+排序用的sort(vec.start(),vec.end(),排序规则)
