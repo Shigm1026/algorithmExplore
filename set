@@ -1,1 +1,16 @@
+对set的理解是一个可以自动排序的数组
+
+set的初始化：
+1、set<template> st;
+2、set<template> st{初值1,初值2,初值3,...}
+3、set<template> st1{初值1,初值2,初值3,...}
+   set<template> st2(st1);
+   
+往set里面插入元素：
+set.insert()
+set.emplace()
+inset是直接插入元素，而emplace是调用结构体的构造函数，会返回两个参数，第一个是set的迭代器，第二个是一个bool类型的数据，用来反映插入是否成功
+
+清除set中元素：
+set.clear()
 
